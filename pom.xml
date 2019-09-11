@@ -64,7 +64,18 @@
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/Ab.jar</systemPath>
 		</dependency>
-	</dependencies>
+
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-translate</artifactId>
+      <version>1.90.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-translate</artifactId>
+      <version>1.90.0</version>
+    </dependency>
+  </dependencies>
 
 	<build>
 		<plugins>
