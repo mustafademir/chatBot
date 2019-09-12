@@ -17,6 +17,7 @@ public class TranslateService {
         text,
         com.google.cloud.translate.Translate.TranslateOption.sourceLanguage("tr"),
         com.google.cloud.translate.Translate.TranslateOption.targetLanguage("en"));
+    String aa = "sdfasdf";
     return translation.getTranslatedText();
 
   }
